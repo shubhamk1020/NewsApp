@@ -73,7 +73,6 @@ public class GridCategoryAdapter extends BaseAdapter {
            holder = (ViewHolder) convertView.getTag();
 
        }
-
        holder.textView.setText(demoCategories.get(position).imageName);
 
        Glide.with(context).load(demoCategories.get(position).ImageId)
